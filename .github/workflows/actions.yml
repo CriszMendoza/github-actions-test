@@ -1,12 +1,7 @@
 # https://api.github.com/repos/CriszMendoza/github-actions-test/dispatches
 name: Actions Workflow
 on:
-  push:
-    branches:
-      - master
-      - "feature/*"
-      - "feature/**"
-      - "!feature/featC"
+  pull_request:
   #repository_dispatch:
   #  types: [build]
   # push:
