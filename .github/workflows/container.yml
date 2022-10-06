@@ -18,7 +18,6 @@ jobs:
         with:
           entrypoint: /usr/local/bin/node
           args: -v
-        run: node -v
   node-docker:
     runs-on: ubuntu-latest
     services:
